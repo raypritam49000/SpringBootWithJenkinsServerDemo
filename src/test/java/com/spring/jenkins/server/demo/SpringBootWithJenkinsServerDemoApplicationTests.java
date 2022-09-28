@@ -15,6 +15,17 @@ public class SpringBootWithJenkinsServerDemoApplicationTests {
 	void contextLoads() {
 		LOGGER.info("Test1 Case Executed....");
 		LOGGER.info("Test2 Case Executed....");
+		LOGGER.info("Test3 Case Executed....");
+		LOGGER.info("Test4 Case Executed....");
+		assertEquals(true, true);
+	}
+
+	@Test
+	void init() {
+		LOGGER.info("Test5 Case Executed....");
+		LOGGER.info("Test6 Case Executed....");
+		LOGGER.info("Test7 Case Executed....");
+		LOGGER.info("Test8 Case Executed....");
 		assertEquals(true, true);
 	}
 
